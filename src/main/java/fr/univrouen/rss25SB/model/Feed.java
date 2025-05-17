@@ -132,12 +132,12 @@ public class Feed {
     
     public void addItem(Item item) {
         items.add(item);
-        item.setFeed(this);
+//        item.setFeed(this);
     }
     
     public void removeItem(Item item) {
         items.remove(item);
-        item.setFeed(null);
+//        item.setFeed(null);
     }
     
     @PrePersist

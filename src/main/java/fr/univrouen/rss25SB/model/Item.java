@@ -11,6 +11,8 @@ import jakarta.xml.bind.annotation.XmlRootElement;
 @XmlAccessorType(XmlAccessType.PROPERTY)
 public class Item{
 	@Id
+	private Long id;
+	
 	@XmlElement
 	private String guid;
 	
